@@ -3,4 +3,14 @@ mkdir proyectos procesos
 mkdir proyectos/Prj1
 mkdir procesos/ControlDeCambios
 vim historia.txt
+git commit -m "Version inicial del repositorio con estructura de ficheros, documento inicial, plantillas y archivo historia.txt"
+
+git tag -a R1 -m "Version 1"
+
+git branch Mejoras
+git checkout Mejoras
+cd procesos/ControlDeCambios/
+git add DP_ControldeCambios_Grupo3\[2\]-v1_1.pdf
+git commit -m "Añadido fichero de propuestas de mejoras"
+
 
