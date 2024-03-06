@@ -22,3 +22,9 @@ git commit -m "Elimino el historia.txt para resolver conflicto"
 git merge Mejoras
 git add historia.txt
 git commit -m "Añado de vuelta historia.txt"
+
+git rm DP_ControldeCambios_Grupo3\[2\]-v1_1.pdf
+git commit -m "Eliminamos fichero de propuestas"
+
+git tag -a R2 -m "Versión R2"
+
