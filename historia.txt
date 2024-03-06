@@ -28,3 +28,9 @@ git commit -m "Eliminamos fichero de propuestas"
 
 git tag -a R2 -m "Versión R2"
 
+git add .
+git commit -m "Version 3 con las nuevas plantillas y nuevo documento"
+
+git revert 3ac5d32b340278224f158eb019a8a0f82fa2a5a8
+git commit -m "Plantillas restantes incluidas"
+git tag -a R3 -m "Version R3"
