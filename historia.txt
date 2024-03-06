@@ -34,3 +34,10 @@ git commit -m "Version 3 con las nuevas plantillas y nuevo documento"
 git revert 3ac5d32b340278224f158eb019a8a0f82fa2a5a8
 git commit -m "Plantillas restantes incluidas"
 git tag -a R3 -m "Version R3"
+
+git add historia.txt
+git commit -m "Actualizacion historia.txt"
+
+git remote add origin https://github.com/iz4ack/practicaIndvGit
+git push origin master
+git push --tags
