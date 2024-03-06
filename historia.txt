@@ -1,0 +1,6 @@
+git init
+mkdir proyectos procesos
+mkdir proyectos/Prj1
+mkdir procesos/ControlDeCambios
+vim historia.txt
+
