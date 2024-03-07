@@ -41,3 +41,8 @@ git commit -m "Actualizacion historia.txt"
 git remote add origin https://github.com/iz4ack/practicaIndvGit
 git push origin master
 git push --tags
+
+//Tuve problemas de HEAD DETACHED y tuve que crear una rama nueva, hacer ahi los ultimos commits y despues hacer merge conel master para despues pushearlo al github.
+
+
+
