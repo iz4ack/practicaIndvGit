@@ -44,5 +44,6 @@ git push --tags
 
 //Tuve problemas de HEAD DETACHED y tuve que crear una rama nueva, hacer ahi los ultimos commits y despues hacer merge conel master para despues pushearlo al github.
 
-
+git pull origin
+git diff historia.txt
 
